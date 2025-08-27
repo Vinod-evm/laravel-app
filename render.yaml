@@ -1,7 +1,7 @@
 services:
   - type: web
     name: laravel-app
-    env: php8
+    env: php
     plan: free
     buildCommand: |
       composer install --no-dev --optimize-autoloader
